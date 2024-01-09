@@ -1,0 +1,20 @@
+/* Mobile View */
+@media(min-width:320px) and (max-width:767px){
+	.portfolio-column1, .porfolio-column2, .portfolio-column3{
+	width:100%;
+	}
+}
+
+/* Tab View */
+@media(min-width:768px) and (max-width:1199px){
+	.portfolio-column1, .porfolio-column2, .portfolio-column3{
+	width:50%;
+	}
+}
+
+/* Desktop View */
+@media(min-width:1200px){
+	.portfolio-column1, .porfolio-column2, .portfolio-column3{
+	width:33.33%;
+	}
+}
